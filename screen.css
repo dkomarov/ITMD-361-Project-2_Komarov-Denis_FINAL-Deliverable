@@ -1,0 +1,78 @@
+/*Establish same style formatting across all html webpages, regarding: 
+font, text alignment, and background color*/
+body {
+	font-family: Arial, sans-serif, "Times New Roman";
+	text-align: center;
+	background-color: #B4BBBD;
+}
+
+/*Customize the initial appearance of a link, and once it is visited via events*/
+a:link, a:visited {
+	color: #2149DF;
+	text-decoration: underline;
+} 
+
+/*Address link appearance when hovered over and active via events*/
+a:hover, a:active {
+	color: red;
+} 
+
+/*Customize header and footer style*/
+header, footer {
+	background-color: yellow;
+	padding: 1em;
+}
+
+/*Remove style from unordered lists*/
+ul {
+    list-style: none;
+}
+
+/*Remove style from lists of items*/
+li {
+    list-style: none;
+}
+
+/*Custom element styling body of homepage*/
+#container_index {
+	width: 100%;
+	background-color: #B4BBBD;
+	color: green;
+}
+
+/*Custom element styling header of timeline page*/
+#header_cod {
+	width: 100%;
+	background-color: #FCE60A;
+	color: black;
+}
+
+/*Custom element styling body of timeline page*/
+#container_cod {
+	width: 97%;
+	background-color: #101010;
+	color: white;
+	padding: 1em;
+}
+
+/*Custom element styling the head of business page*/
+#header_massage {
+	background-color: #2149DF;
+	color: #46E639;
+}
+
+/*Custom element styling body of business page*/
+#container_massage {
+	width: 97%;
+  	background-color: #46E639;
+	color: blue;
+	padding: 1em;
+}
+
+/*Custom elements styling both head and body of resume page */
+#header_resume, #container_resume {
+	width: 97%;
+	background-color: #2149DF;
+	color: white;
+	padding: 1em;
+}
