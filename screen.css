@@ -6,10 +6,6 @@ body {
 	background-color: #B4BBBD;
 }
 
-.active {
-background-color: #36F910;
-}
-
 /*Customize the initial appearance of a link, and once it is visited via events*/
 a:link, a:visited {
 	color: #2149DF;
