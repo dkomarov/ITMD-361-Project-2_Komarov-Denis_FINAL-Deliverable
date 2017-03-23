@@ -6,6 +6,9 @@ body {
 	background-color: #B4BBBD;
 }
 
+.active {
+background-color: #36F910;
+}
 
 /*Customize the initial appearance of a link, and once it is visited via events*/
 a:link, a:visited {
@@ -38,7 +41,7 @@ li {
 #container_index {
 	width: 1000px;
 	background-color: #B4BBBD;
-	color: green;
+	color: black;
 }
 
 /*Custom element styling header of FLUID timeline page*/
